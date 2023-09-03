@@ -48,23 +48,23 @@ function GridBasicExample() {
       <div className="text-center">
         <Row className="mb-3 mx-1">
           <Form.Group as={Col} controlId="formGridEmail">
-            <Form.Label>70 קושי גבוהה</Form.Label>
+            <Form.Label>70 </Form.Label>
             <Form.Control
               type="text"
-              placeholder="קושי גבוהה"
+              placeholder="Hard"
               name="high"
-              value={formData["קושי גבוהה"]}
+              value={formData["Hard"]}
               onChange={handleOnChange}
             />
           </Form.Group>
 
           <Form.Group as={Col} controlId="formGridPassword">
-            <Form.Label>40 קושי נמוך</Form.Label>
+            <Form.Label>40  </Form.Label>
             <Form.Control
               type="text"
-              placeholder="קושי נמוך"
+              placeholder="Soft"
               name="low"
-              value={formData["קושי נמוך"]}
+              value={formData["Soft"]}
               onChange={handleOnChange}
             />
           </Form.Group>
