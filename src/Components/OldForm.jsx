@@ -23,7 +23,7 @@ function GridBasicExample() {
 
   useEffect(()=>{
    if (formData.high == "" || formData.low == "") {
-      return setFinalH("בבקשה להכניס ערך ");
+      return setFinalH("Enter value");
     }
 
     const regex = /^-?\d+(\.\d+)?$/;
